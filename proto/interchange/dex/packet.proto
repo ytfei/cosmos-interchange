@@ -38,7 +38,7 @@ message SellOrderPacketData {
 
 // SellOrderPacketAck defines a struct for the packet acknowledgment
 message SellOrderPacketAck {
-	  int32 remainingAmount = 1;
+	int32 remainingAmount = 1;
   int32 gain = 2;
 }
 // BuyOrderPacketData defines a struct for the packet payload
@@ -47,11 +47,12 @@ message BuyOrderPacketData {
   int32 amount = 2;
   string priceDenom = 3;
   int32 price = 4;
+  string buyer = 5;
 }
 
 // BuyOrderPacketAck defines a struct for the packet acknowledgment
 message BuyOrderPacketAck {
-	  int32 remainingAmount = 1;
+	int32 remainingAmount = 1;
   int32 purchase = 2;
 }
 // this line is used by starport scaffolding # ibc/packet/proto/message
