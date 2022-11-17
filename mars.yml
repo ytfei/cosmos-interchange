@@ -13,4 +13,4 @@ faucet:
 genesis:
   chain_id: "mars"
 init:
-  home: "$HOME/.mars"
+  home: "$HOME/.ignite/mars"

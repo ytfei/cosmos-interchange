@@ -21,4 +21,4 @@ host:
 genesis:
   chain_id: "venus"
 init:
-  home: "$HOME/.venus"
+  home: "$HOME/.ignite/venus"
