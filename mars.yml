@@ -9,7 +9,7 @@ accounts:
 - name: alice
   coins:
   - 1000token
-  - 100000000stake
+  - 200000000stake
   - 1000marscoin
 - name: bob
   coins:
@@ -21,6 +21,7 @@ faucet:
   coins:
   - 5token
   - 100000stake
+  - 1000marscoin
   host: 0.0.0.0:4500
 genesis:
   chain_id: mars
